@@ -1,0 +1,9 @@
+.country {
+  border: 2px solid rgb(86, 160, 221);
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
