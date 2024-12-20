@@ -7,3 +7,7 @@
   place-items: center;
   flex-direction: column;
 }
+
+.visited-country {
+  background-color: bisque;
+}

@@ -11,7 +11,10 @@ const Country = ({ country }) => {
   };
 
   return (
-    <div className="country">
+    <div
+      style={{ color: visited ? "purple" : "white" }}
+      className={`country ${visited && "visited-country"}`}
+    >
       <h3>Country: {name?.common} </h3>
       <p>
         Capital: <b>{capital}</b>
